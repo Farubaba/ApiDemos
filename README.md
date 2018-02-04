@@ -1,9 +1,8 @@
 # ApiDemos
 Compileable ApiDemos based on android 22.
-
-###【MacOS High Sierra】Android Studio 3.0.1 构建Android-22版本ApiDemos项目
+#### 【MacOS High Sierra】Android Studio 3.0.1 构建Android-22版本ApiDemos项目
 	
-####参考文档
+#### 参考文档
 
 |序号|名称|链接地址|备注|
 |----|----|----|----|
@@ -12,7 +11,7 @@ Compileable ApiDemos based on android 22.
 |3|Support v4 library Revision archive|<https://developer.android.com/topic/libraries/support-library/rev-archive.html>|记录了Support v4包的修改进化过程，版本信息等修改升级档案|
 |4|Migrate to Android Plugin for Gradle 3.0.0|<https://developer.android.com/studio/build/gradle-plugin-3-0-0-migration.html#new_configurations>|详细介绍了如何升级Android Gradle plugin到3.0.0版本，解决遇到的问题，版本冲突等|
 
-####一、环境准备
+#### 一、环境准备
 
 > 1. 操作系统					= MacOS High Sierra 10.13.2
 > 1. JDK 版本 				= <font color="red">1.8.0_40</font>    
@@ -20,7 +19,7 @@ Compileable ApiDemos based on android 22.
 > 3. ApiDemos源代码		   = 你的Android SDK目录下/samples/<font color="red">android-22</font>/legacy/ApiDemos    
     						 （如果没有，请使用SDKmanager下载）
 
-####二、关键概念
+#### 二、关键概念
 
 	1. Android Studio
 	2. Gradle
@@ -31,7 +30,7 @@ Compileable ApiDemos based on android 22.
 	7. buildToolsVersion
 	8. compileSdkVersion
 
-####三、Android Studio 3.0.1中创建新项目(或者转化Eclipse项目)采用的默认配置
+#### 三、Android Studio 3.0.1中创建新项目(或者转化Eclipse项目)采用的默认配置
 
 	1. 由于AndroidStudio3.0.1默认使用Android Gradle plugin 3.0.0+版本，而Android Gradle 
 	   plugin 3.0.0+需要依赖于Gradle 4.1+版本,并且要求Build Tools 26.0.2 or higher.
@@ -39,7 +38,7 @@ Compileable ApiDemos based on android 22.
 	2. Gradle plugin 3.0.0+中会自带一个最低可使用版本的Build Tools，只要使用Gradle 
 	   plugin 3.0.0+版本就不再需要手动指定Build Tools(buildToolsVersion)了。
 
-####四、Android Studio 3.0.1 导入Android-22中的ApiDemos项目
+#### 四、Android Studio 3.0.1 导入Android-22中的ApiDemos项目
 
 |步骤|类型|示例|
 |----|----|----|
