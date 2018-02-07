@@ -1,5 +1,5 @@
 # ApiDemos
-Compileable ApiDemos based on android 22.
+ApiDemos based on android 22 source code & can be compiled in Android studio 3.0.1
 
 #### 【MacOS High Sierra】Android Studio 3.0.1 构建Android-22版本ApiDemos项目
 	
